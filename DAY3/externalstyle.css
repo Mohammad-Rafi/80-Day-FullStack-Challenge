@@ -1,3 +1,5 @@
+/* External CSS for my basic web page mini-project */
+
 body{
     background-color:pink;
 }
@@ -6,11 +8,11 @@ h2{
     text-align:center;
     font-family: 'French Script MT', 'sans-serif';
     font-size: 3em;
-    font-weight: none;
+    font-weight: normal;
     font-style:oblique;
 }
 
-form {
+#f1{
     text-align:center;
     background-color:rgb(247, 136, 183);
     border-radius: 25px;
@@ -31,7 +33,7 @@ button{
     width:77px;
     background-color:rgb(248, 149, 222);
     font-family: 'Matura MT Script Capitals','French Script MT';
-}
+} 
 
 select{
     text-align: center;
@@ -43,8 +45,8 @@ select{
     width:94%;
 }
 
-#l1{
-     text-align: center;
+#i1{
+    text-align: center;
     border-radius:25px;
     padding:3px;
     border:1px double lightgrey;
@@ -53,3 +55,5 @@ select{
     width:50%;
     margin:10px;
 }
+
+
