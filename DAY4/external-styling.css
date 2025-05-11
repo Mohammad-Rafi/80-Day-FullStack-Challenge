@@ -1,0 +1,75 @@
+/* Student register details css styling - external */
+
+h2 {
+    /* background-color: rgb(64, 119, 191); */
+    text-align: center;
+    font-family: 'Maiandra GD', 'Engravers MT', 'Lucida Console';
+    font-weight: 2em;
+    margin: auto;
+
+
+}
+
+body {
+    background-color: rgb(215, 232, 255);
+    text-align: center;
+    /* margin:4% auto ; */
+    font-family: 'Maiandra GD';
+    /*
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 480px;
+    width: 88%;
+     */
+
+
+     /* display: flex;
+     justify-content: center;
+     text-align: center; */
+}
+
+   .container {             
+    
+    /*inside div element we are giving styling for both h2 and form */
+    
+    background-color: rgb(250, 252, 255);
+    border: 1px double rgb(255, 247, 247);
+    margin: 5% auto;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 480px;
+    width: 88%;
+    box-shadow: 0 0 25px rgb(244, 249, 238);
+
+}
+
+#header1{
+    margin:20px;
+}
+#header2{
+    margin:20px;
+}
+#header3{
+    margin:20px;
+}
+#header4{
+    margin:20px;
+}
+#header5{
+    margin:20px;
+}
+
+header{
+    background-color:antiquewhite;
+} 
+/* form {
+    text-align: center;
+    background-color: rgb(250, 252, 255);
+    border: 1px double rgb(255, 247, 247);
+    margin: 10% auto;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 480px;
+    width: 88%; 
+        } 
+*/

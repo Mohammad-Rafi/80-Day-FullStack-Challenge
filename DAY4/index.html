@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Student Register portal
+    </title>
+    <link rel="stylesheet" href="external-styling.css">
+    <link rel="icon" href="SIMATS.png">
+</head>
+
+<body>
+    <header><a id="header1" href="">Website</a>    <a id="header2" href="">Branches</a>   <a id="header3" href="">mail-id</a>     <a id="header4" href="">Contact</a>      <a id="header5" href="">Admissions</a></header>
+    </a>
+    <hr>
+
+    <h1>Saveetha School Engineering | SIMATS </h1>
+    <div class="container">
+
+        <h2>Student Register Details</h2>
+        <br><br>
+
+        <form>
+
+            <label for="first name">Student name</label>
+            <input type="text" required id="first name" placeholder="First Name">
+
+            <label for="second name"></label>
+            <input type="text" required id="second name" placeholder="Last Name">
+            <br><br>
+
+            <label for="bday">DOB</label>
+            <input type="date" id="bday" required>
+            <br><br>
+
+            <label for="phone number">Phone Number</label>
+            <input type="tel" required id="phone number" placeholder="(+91) 123-456-7890">
+            <br><br>
+
+            <label for="email">Mail Id</label>
+            <input type="email" id="email" required placeholder="studentname@saveetha.com">
+            <br><br>
+
+            <label for="Register Number">Register Number</label>
+            <input type="text" required id="Register Number" required placeholder="19-bc-ac-xxx" accept="num">
+            <br><br>
+
+            <label for="Branch">Select Branch</label>
+            <select id="Branch" type="select" required>
+                <option disabled selected>Select Brach</option>
+                <option>Mechanical</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>CSE</option>
+                <option>CSE-Biotech</option>
+            </select>
+            <br><br>
+
+            <label for="select year" required>Select Year</label>
+            <select id="select year" type="select">
+                <option disabled selected >Select Year</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+            </select>
+            <br><br>
+
+            <label for="reset"></label>
+            <button id="reset" type="reset">Reset</button>
+
+            <label for="submit"></label>
+            <button id="submit" type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <footer>Saveetha School of Engineering (SIMATS) &copy; | (+91) 123-456-7890</footer>
+</body>
+</html>
