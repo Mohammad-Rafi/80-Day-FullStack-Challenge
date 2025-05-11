@@ -16,8 +16,8 @@ h2{
     text-align:center;
     background-color:rgb(247, 136, 183);
     border-radius: 25px;
-    max-width:590px;
-    padding: 1em;
+    max-width:300px;
+    padding: 0.8em;
     width: 85%;
     box-shadow: 0 0 50px #ff69b4;
     margin: auto;
@@ -42,7 +42,7 @@ select{
     border:1px double lightgrey;
     box-shadow:0 0 12px #e9cbda;
     background-color:rgb(245, 205, 234);
-    width:94%;
+    width:96%;
 }
 
 #i1{
@@ -56,4 +56,8 @@ select{
     margin:10px;
 }
 
+/* footer{
+    text-align:center;
+    margin:10% ;
+} */
 
