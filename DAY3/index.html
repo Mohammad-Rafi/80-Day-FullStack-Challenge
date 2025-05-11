@@ -4,12 +4,6 @@
         <title>
             Article Internal Styling
         </title>
-        <header>
-            <a href="">contact</a>
-            <a href="">Website</a>
-            <a href=""></a>
-
-        </header>
     <style>
         h1{
             text-align:center;
@@ -25,10 +19,10 @@
         text-align: center;
         background-color:aquamarine;
         }
-        #body{
+        body{
             background-color:rgb(252, 220, 172);
         }
-        #h1{
+        h1{
             background-color:rgb(149, 193, 243);
         }
         #p1{
@@ -43,7 +37,7 @@
         #p4{
             color:purple
         }
-        
+         
         table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
@@ -52,23 +46,24 @@
         th, td {
         padding: 9px;
         text-align: center;
-        }
-
+        } 
         #r1{
             color:rgb(18, 26, 192);
         }
-
         form{
             text-align: center;
         }
-        
-    
     </style>
-
     </head>
-    <hr>
-
-    <body id="body">
+    
+    <body>
+        <header>
+        <a href="">contact</a>
+        <a href="">Website</a>
+        <a href=""></a>
+        </header>
+        <hr>
+        
         <h1 id="h1">Cybercrime - Article</h1>
         <pre id="p1">
         Cybercrime may be defined as “Any unlawful act where computer or communication device or computer network is used to commit or facilitate the commission of a crime”.
@@ -82,7 +77,6 @@
         <pre id="p4">
         Sexting is an act of sending sexually explicit digital images, videos, text messages, or emails, usually by cell phone.
         </pre>
-
     <table id="t1">
         <tr id="r1">
             <th>Online Crime</th>
@@ -122,12 +116,12 @@
         <input type="radio" id="Other" value="other" name="Choose Gender">
 
         <br><br>
-        <label for="mail">Mail ID</label>
-        <input type="mail" id="E-mail" placeholder="Registered Miail Id" required accept="gmail">
+        <label for="email">Mail ID</label>
+        <input type="email" id="email" placeholder="Registered Miail Id" required accept="gmail">
         <br><br>
 
-        <label for="phone">Phone Number</label>
-        <input type="phone" id="phone" placeholder="(+91)123-456-7890" required>
+        <label for="tel">Phone Number</label>
+        <input type="tel" id="tel" placeholder="(+91)123-456-7890" required>
         <br><br>
 
         <label for="type of complain">Crime You are facing</label>
@@ -147,17 +141,18 @@
         <br><br>
 
         <label for="file">Submit Proofs</label>
-        <input type="file" id="file" placeholder="Upload Digital Proofs" accept="image/jpeg , video/mp4 , audio/mp3">
+        <input type="file" id="file" placeholder="Upload Digital Proofs" accept="image/jpeg,video/mp4,audio/mp3">
         <br><br>
         <input type="reset">
         <br><br>
         <label for="submit">Submit your Issue </label>
         <input id="submit" type="submit">
     </form>
+    </body>
     <hr>
 
     <footer>Cyber Crime Department &copy; 
     <a href="">unit details</a>    
     </footer>
-    </body>
+    
 </html>
