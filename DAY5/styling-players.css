@@ -1,0 +1,128 @@
+/* Styling Web page for World class cricket Players */
+
+header{
+    text-align:center;
+    background-color:azure;
+    padding:30px;
+}
+
+#header1{
+    margin:20px;
+}
+#header2{
+    margin:20px;
+}
+#header3{
+    margin:20px;
+}
+#header4{
+    margin:20px;
+}
+#header5{
+    margin:20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+h2{
+    text-align:center;
+    margin:20px;
+    font-family: 'Copperplate Gothic Light' , 'Arial Rounded MT Bold';
+}
+
+.picture1{
+    height:200px;
+    width:200px;
+}
+
+.d1{
+    text-align:center;
+    margin:10%; 
+    max-width:90%;
+    background-color:rgb(253, 255, 240);
+    border: 300px;
+    border-radius:30px;
+    box-shadow:0 0 10px gainsboro;
+}
+
+.p1{
+    font-style: lighter ;
+}
+
+.b1{
+    margin:10px;
+}
+
+.picture2{
+
+   margin:5px;
+    height: 200px;
+    width: 200px;
+}
+
+.d2{
+    text-align:center;
+    margin:10% ; 
+    max-width:90%;
+    background-color:rgb(243, 208, 208);
+    border: 300px;
+    border-radius:30px;
+    box-shadow:0 0 10px gainsboro;
+}
+
+.b2{
+    margin:10px;
+}
+
+
+.d3{
+    text-align:center;
+    margin:10%; 
+    max-width:90%;
+    background-color:rgb(226, 226, 252);
+    border: 300px;
+    border-radius:30px;
+    box-shadow:0 0 10px gainsboro;
+}
+
+.picture3{
+
+    margin:5px; 
+    height:200px;
+    width:200px;
+}
+
+.b3{
+    margin:10px;
+}
+
+.d4{
+    text-align:center;
+    margin:10%; 
+    max-width:90%;
+    background-color:rgb(226, 241, 252);
+    border: 300px;
+    border-radius:30px;
+    box-shadow:0 0 10px gainsboro;
+}
+
+.picture4{
+
+    margin:5px;
+    height:200px;
+    width:200px;
+}
+
+.b4{
+    margin:10px;
+}
+
+footer{
+    margin-top: 10%;
+    text-align:center;
+    background-color:rgb(223, 253, 243);
+    
+   
+}
